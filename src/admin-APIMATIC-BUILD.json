@@ -144,9 +144,9 @@
     "workflows": [
       {
         "name": "Pet Store API Walkthrough",
-        "permalink": "page:recipes/PetStoreApiWalkthrough",
-        "functionName": "PetStoreApiWalkthrough",
-        "scriptPath": "./static/scripts/recipes/PetStoreApiWalkthrough.js"
+        "permalink": "page:recipes/PetStoreApiWalkrough",
+        "functionName": "PetStoreApiWalkrough",
+        "scriptPath": "./static/scripts/recipes/PetStoreApiWalkrough.js"
       }
     ]
   }

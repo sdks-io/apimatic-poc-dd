@@ -18,7 +18,7 @@ toc:
   - group: API Recipes
     items:
       - page: Pet Store API Walkthrough
-        file: recipes/PetStoreApiWalkthrough.md
+        file: recipes/PetStoreApiWalkrough.md
   - generate: Models
     from: models
   - generate: SDK Infrastructure

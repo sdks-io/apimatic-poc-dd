@@ -1,4 +1,4 @@
-async function PetStoreApiWalkthrough(workflowCtx, portal) {
+export default function PetStoreApiWalkrough(workflowCtx, portal) {
   return {
     "Guide": {
       name: "Introduction Guide",

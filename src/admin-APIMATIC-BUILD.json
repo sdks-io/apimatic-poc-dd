@@ -21,7 +21,9 @@
       "php": {},
       "go": {}
     },
-    "filterByRole": ["admin"],
+    "filterByRole": [
+      "admin"
+    ],
     "portalSettings": {
       "theme": {
         "baseTheme": "cosmos",
@@ -29,7 +31,7 @@
           "defaultMode": "system",
           "disableSwitch": false
         },
-        "colors":{
+        "colors": {
           "primaryColor": {
             "light": "#43B02A",
             "dark": "#43B02A"
@@ -137,5 +139,15 @@
       "enableExport": true,
       "enableConsoleCalls": true
     }
+  },
+  "recipes": {
+    "workflows": [
+      {
+        "name": "Pet Store API Walkthrough",
+        "permalink": "page:recipes/PetStoreApiWalkthrough",
+        "functionName": "PetStoreApiWalkthrough",
+        "scriptPath": "./static/scripts/recipes/PetStoreApiWalkthrough.js"
+      }
+    ]
   }
 }

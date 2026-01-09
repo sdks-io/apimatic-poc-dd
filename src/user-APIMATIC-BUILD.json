@@ -137,5 +137,15 @@
       "enableExport": true,
       "enableConsoleCalls": true
     }
+  },
+  "recipes": {
+    "workflows": [
+      {
+        "name": "Pet Store API Walkthrough",
+        "permalink": "page:recipes/PetStoreApiWalkthrough",
+        "functionName": "PetStoreApiWalkthrough",
+        "scriptPath": "./static/scripts/recipes/PetStoreApiWalkthrough.js"
+      }
+    ]
   }
 }

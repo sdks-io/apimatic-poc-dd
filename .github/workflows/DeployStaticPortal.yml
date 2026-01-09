@@ -13,7 +13,7 @@ jobs:
  
     steps:
 
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
       name : checkout-repo
       id: checkout-repo  
       
@@ -27,7 +27,7 @@ jobs:
       run: unzip -qq portal-output.zip -d static-portal
       
     - name: Publish
-      uses: cloudflare/wrangler-action@2.0.0
+      uses: cloudflare/wrangler-action@v3
       with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -39,7 +39,7 @@ jobs:
  
     steps:
 
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
       name : checkout-repo
       id: checkout-repo  
       
@@ -60,7 +60,7 @@ jobs:
       working-directory: "static-portal2"
       
     - name: Publish
-      uses: cloudflare/wrangler-action@2.0.0
+      uses: cloudflare/wrangler-action@v3
       with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

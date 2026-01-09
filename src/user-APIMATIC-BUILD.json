@@ -5,12 +5,12 @@
     "debug": {
       "publishReport": true
     },
-    "pageTitle": "My First Portal",
+    "pageTitle": "Delta Dental API Portal",
     "navTitle": "Developer Experience Portal",
-    "logoUrl": "static/images/placeholder-logo.png",
-    "logoUrlDark": "static/images/placeholder-logo-dark.png",
+    "logoUrl": "static/images/logo.png",
+    "logoUrlDark": "static/images/logo.png",
     "logoLink": "https://www.apimatic.io",
-    "faviconUrl": "static/images/favicon.ico",
+    "faviconUrl": "static/images/favicon.png",
     "languageConfig": {
       "http": {},
       "typescript": {},
@@ -31,12 +31,12 @@
         },
         "colors":{
           "primaryColor": {
-            "light": "#0C7FF2",
-            "dark": "#7CBAF8"
+            "light": "#43B02A",
+            "dark": "#43B02A"
           },
           "linkColor": {
-            "light": "#004AD7",
-            "dark": "#A3D1FF"
+            "light": "#8A78A8",
+            "dark": "#8A78A8"
           }
         },
         "fontSource": [
@@ -133,6 +133,7 @@
         }
       },
       "enableHttpVerbsForAllLangs": true,
+      "initialPlatform": "cs_net_standard_lib",
       "enableExport": true,
       "enableConsoleCalls": true
     }

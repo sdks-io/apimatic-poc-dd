@@ -31,7 +31,7 @@ jobs:
       with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages publish static-portal --branch=admin --project-name=apimatic-poc-dd
+          command: pages publish static-portal --branch=user --project-name=apimatic-poc-dd
 
 
   role2:
@@ -64,4 +64,4 @@ jobs:
       with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages publish static-portal2 --branch=user --project-name=apimatic-poc-dd
+          command: pages publish static-portal2 --branch=admin --project-name=apimatic-poc-dd

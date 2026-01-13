@@ -149,5 +149,10 @@
         "scriptPath": "./static/scripts/recipes/PetStoreApiWalkrough.js"
       }
     ]
+  },
+  "apiCopilotConfig": {
+    "isEnabled": true,
+    "welcomeMessage": "Welcome to the Delta Dental Developer Portal!\n\nExplore the following prompts and harness the power of the Delta Dental APIs with API Copilot\u0027s assistance!\n\n - \u0060How do I create a new pet?\u0060 \n - \u0060Can you help me update a pet name?\u0060",
+    "key": "c5fe716b-70fe-4a84-901b-1d7040ce3cfb"
   }
 }

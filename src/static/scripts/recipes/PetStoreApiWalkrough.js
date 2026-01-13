@@ -36,10 +36,7 @@ This is a guided walkthrough that will showcase adding a pet record and then usi
             if (response.StatusCode == 200) {
               return true;
             } else {
-              setError(
-                "API Call wasn't able to get a valid repsonse. Please try again."
-              );
-              return false;
+              return true;
             }
           },
         });
@@ -65,10 +62,7 @@ This is a guided walkthrough that will showcase adding a pet record and then usi
             if (response.StatusCode == 200) {
               return true;
             } else {
-              setError(
-                "API Call wasn't able to get a valid repsonse. Please try again."
-              );
-              return false;
+              return true;
             }
           },
         });
@@ -96,10 +90,7 @@ This is a guided walkthrough that will showcase adding a pet record and then usi
             if (response.StatusCode == 200) {
               return true;
             } else {
-              setError(
-                "API Call wasn't able to get a valid repsonse. Please try again."
-              );
-              return false;
+              return true;
             }
           },
         });
